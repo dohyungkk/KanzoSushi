@@ -10,5 +10,5 @@ This is Freelancing website under construction for KanzoSushi Ltd. It is SPA in 
 
 # Contributor
 
-Ricky Lee
 Kevin Kim
+Ricky Lee
