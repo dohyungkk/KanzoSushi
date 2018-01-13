@@ -1,6 +1,6 @@
-## This is SushiRoyal Website
+## This is KanzoSushi Website
 
-This is Freelancing website under construction for SushiRoyal Ltd. It is SPA in which promotes company's business. Techstack used is Vue.js.
+This is Freelancing website under construction for KanzoSushi Ltd. It is SPA in which promotes company's business. Techstack used is Vue.js.
 
 # Getting Started
 
