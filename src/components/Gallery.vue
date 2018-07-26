@@ -74,6 +74,13 @@ export default {
     width: 75%;
   }
 
+  div {
+    color: #bcbcbc;
+  }
+
+  body {
+    background-color: #000;
+  }
 
 
 </style>

@@ -3,60 +3,23 @@
     <div class='table'>
      <a class="openHour">
           OPENING HOUR
-        </a>
+     </a>
     <table class="table-plain branch-hours">
       <tbody class="line">
         <tr class="Monday">
-          <td>Monday: </td>
-          <td>  11:00am - 9:00pm</td>
-          <td></td>
+          <td>Monday to Sunday : 11:00am - 9:00pm</td>
         </tr>
-      <tr class="Tuesday">
-        <td>Tuesday: </td>
-        <td>  11:00am - 9:00pm</td>
-        <td></td>
-      </tr>
-
-      <tr class="Wednesday">
-        <td>Wednesday: </td>
-        <td>  11:00am - 9:00pm</td>
-        <td></td>
-      </tr>
-
-      <tr class="Thursday">
-        <td>Thursday: </td>
-        <td>  11:00am - 9:30pm</td>
-        <td></td>
-      </tr>
-
-      <tr class="Friday">
-        <td>Friday: </td>
-        <td>  11:00am - 9:30pm</td>
-        <td></td>
-      </tr>
-
-      <tr class="Saturday">
-        <td>Saturday: </td>
-        <td>  11:00am - 9:30pm</td>
-        <td></td>
-      </tr>
-
-      <tr class="Sunday">
-        <td>Sunday: </td>
-        <td>  11:00am - 9:30pm</td>
-        <td></td>
-      </tr>
   </tbody>
 </table>
 </div>
   <div class='other'>
     <a class='phoneAndAddress'> Phone Number and Address </a>
     <div class='phone'>
-      778-379-3837 /
-      778-379-3469
+      604-568-4500 /
+      604-558-4994
     </div>
     <div class='address'>
-      2893 Grandview Hwy, Vancouver, BC, V5M 2E1
+      82 Keefer Place (across International Village), Vancouver, BC, V6B 0C9
     </div>
   </div>
   </div>
@@ -74,7 +37,7 @@ export default {
 <style scoped>
 
 .openHour {
-  color: #FFFF00;
+  color: #bcbcbc;
 }
 
 .phone, .address {
@@ -84,7 +47,8 @@ export default {
 .table {
   width: 50%;
   float: left;
-  text-align: center;
+  max-width: 100%;
+  margin-bottom: 1rem;
 }
 
 .other {
@@ -95,14 +59,13 @@ export default {
 
 .phoneAndAddress{
   text-align: center;
-  margin-right: 150px;
 }
 
 a {
-  font-family: 'TradeGothicW01-Extended', sans-serif;
-    text-transform: uppercase;
+  	font-family: 'TradeGothicW01-Extended', sans-serif;
+  	text-transform: uppercase;
     margin: 0;
-    color: #FFFF00;
+    color: #bcbcbc;
     font-size: 30px;
     margin-bottom: 20px;
 }
@@ -115,22 +78,16 @@ table.table-plain td
 {
     border: none !important;
     table-layout: auto;
-    padding: .5rem;
     padding: 0;
     border-spacing: 0;
     font-family: "AvenirNextLTW01-Regular", sans-serif;
-    font-size: 16;
     line-height: 1.3;
     color: #bcbcbc;
     margin-bottom: 20px;
-    width: 100%;
-    max-width: 377px;
 }
 
 table.table-plain td:first-child {
   text-align: center;
-  font-weight: bold;
-  width: 70%;
 
 }
 
@@ -153,6 +110,11 @@ table.table-plain td:nth-child(2) {
 
 .line {
   text-align: center;
+}
+
+td {
+	    border: none;
+    text-align: center;
 }
 
 </style>

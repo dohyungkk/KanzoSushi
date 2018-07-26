@@ -13,7 +13,7 @@
       v-for="(image, imageIndex) in images"
       :key="imageIndex"
       @click="index = imageIndex"
-      :style="{ backgroundImage: 'url(' + image + ')', width: '300px', height: '200px' }"
+      :style="{ backgroundImage: 'url(' + image + ')', width: '150px', height: '200px' }"
     ><img class='images' :src="images[currentNumber % images.length]  " /></div>
   </div>
   </div>
@@ -30,13 +30,24 @@ export default {
     data: function () {
       return {
         images: [
-          // require('../assets/DSC00012-2.jpg'),
-          // require('../assets/DSC00031.jpg'),
-          // require('../assets/DSC00092.jpg'),
-          // require('../assets/DSC00094.jpg'),
-          // require('../assets/DSC00149.jpg'),
-          require('../assets/menu1.jpg'),
-          require('../assets/menu2.jpg')
+          require('../assets/appetizers.jpg'),
+          require('../assets/tempura.jpg'),
+          require('../assets/don.jpg'),
+          require('../assets/entrees.jpg'),
+          require('../assets/party_trays.jpg'),
+          require('../assets/party_trays2.jpg'),
+          require('../assets/bento.jpg'),
+          require('../assets/combination1.jpg'),
+          require('../assets/combination2.jpg'),
+          require('../assets/sashimi.jpg'),
+          require('../assets/roll1.jpg'),
+          require('../assets/roll2.jpg'),
+          require('../assets/roll3.jpg'),
+          require('../assets/roll4.jpg'),
+          require('../assets/nigiri.jpg'),
+          require('../assets/special1.jpg'),
+          require('../assets/special2.jpg')
+
         ],
         index: null
       };

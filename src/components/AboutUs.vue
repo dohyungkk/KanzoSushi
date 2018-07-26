@@ -55,8 +55,8 @@ export default {
 <style scoped>
 
   p {
-    font-family: serif;
-    margin-left: 150px;
+    margin-top: 0;
+    margin-bottom: 1rem;
   }
   .descriptionBox {
     margin-top: 20px;

@@ -36,7 +36,7 @@
 
            <li>
             <div class="infos">
-              <img src="../assets/introback.jpg" alt="" title="customer" />
+              <img src="../assets/anita.jpg" alt="" title="customer" />
             </div>
           <li>
           <div class="content">

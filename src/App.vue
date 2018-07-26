@@ -5,7 +5,7 @@
 
 
   <div id="header">
-    <h1 id="headerTitle">Kanzo Sushi
+    <h1 id="headerTitle">
        <div id='logo'>
         <img class="imageAboutUs" src="./assets/kanzoLogo-1.jpg"></img>
       </div>
@@ -98,10 +98,9 @@ b {
 }
 
 #logo {
-  float: right;
-  height: 30px;
+  height: 100px;
   font-size: 30px;
-  margin: 0px 60px 0px 0px;
+  margin: 0 60px 0 0;
 
 }
 
@@ -121,6 +120,11 @@ b {
 
 #headerTitle {
   text-align: center;
+}
+
+img {
+    vertical-align: left;
+    border-style: none;
 }
 
 </style>
